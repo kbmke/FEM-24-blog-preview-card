@@ -109,7 +109,7 @@ h6 {
   .info {
     margin: 0 1.5rem;
 
-    .header {
+    .learning {
       background-color: var(--mainBG);
       font-weight: 600;
       width: 6rem;
@@ -117,10 +117,34 @@ h6 {
       padding: 0.5rem;
       text-align: center;
     }
+
+    .pub {
+      margin: 1rem 0;
+    }
+
+    .sub {
+      font-weight: 800;
+    }
+
+    .para {
+      color: var(--para);
+      margin: 1rem 0;
+    }
+    .creator {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+
+      .avatar {
+        width: 2rem;
+      }
+      .name {
+        margin: 0.7rem;
+        font-weight: 800;
+      }
+    }
   }
-  .para {
-    color: var(--para);
-  }
+
   .abs {
     /* GIVES ELEMENTS ABSOLUTE POSITION */
     position: absolute;
