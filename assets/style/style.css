@@ -94,7 +94,7 @@ h6 {
 
   .card {
     background-color: var(--cardBG);
-    width: 20rem;
+    width: 23rem;
     height: 35rem;
     border: 1px solid black;
     border-radius: 1rem;
@@ -102,7 +102,7 @@ h6 {
   }
 
   .hero img {
-    width: 17rem;
+    width: 20rem;
     margin: 1rem auto;
     border-radius: 1rem;
   }
