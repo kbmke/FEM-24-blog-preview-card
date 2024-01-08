@@ -60,3 +60,15 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* SET UNIVERSAL CSS VARIABLES */
+:root {
+  --mainBG: hsl(47, 88%, 63%);
+  --cardBG: hsl(0, 0%, 100%);
+  --para: hsl(0, 0%, 50%);
+  --pub: hsl(0, 0%, 7%);
+  --nameColor: hsl(0, 0%, 7%);
+
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+}
