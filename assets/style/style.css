@@ -73,8 +73,82 @@ h6 {
   font-family: "Figtree", sans-serif;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 769px) {
-  /* CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  /* CHANGES SETTINGS AT 375px SCREEN SIZE TO 767px SCREEN SIZE*/
+
+  html {
+    /* ALL ELEMENT FORMATTING */
+    background-color: var(--mainBG);
+
+    /* EFFECTS ALL ELEMENTS */
+  }
+
+  body {
+    /* EFFECTS BODY ELEMENTS */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* CLASS FORMATTING BELOW */
+
+  .card {
+    background-color: var(--cardBG);
+    width: 20rem;
+    height: 35rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 8rem auto;
+  }
+
+  .hero img {
+    width: 17rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+  .info {
+    margin: 0 1.5rem;
+
+    .header {
+      background-color: var(--mainBG);
+      font-weight: 600;
+      width: 6rem;
+      border-radius: 0.3rem;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  }
+  .para {
+    color: var(--para);
+  }
+  .abs {
+    /* GIVES ELEMENTS ABSOLUTE POSITION */
+    position: absolute;
+  }
+
+  .rel {
+    /* GIVES ELEMENTS RELATIVE POSITION */
+    position: relative;
+  }
+
+  .flexr {
+    /* MAKES A FLEX ROW */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexc {
+    /* MAKES A FLEX COLUMN */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fcenter {
+    /* MAKES FLEX ELEMENTS CENTERED */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .attribution {
     font-size: 11px;
@@ -82,59 +156,60 @@ h6 {
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
   /* CHANGES SETTINGS AT 768px SCREEN SIZE TO 1440px SCREEN SIZE*/
 
+  html {
+    /* EFFECTS ALL ELEMENTS */
+    background-color: var(--mainBG);
+  }
+
+  body {
+    /* EFFECTS BODY ELEMENTS */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .abs {
+    /* GIVES ELEMENTS ABSOLUTE POSITION */
+    position: absolute;
+  }
+
+  .rel {
+    /* GIVES ELEMENTS RELATIVE POSITION */
+    position: relative;
+  }
+
+  .flexr {
+    /* MAKES A FLEX ROW */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexc {
+    /* MAKES A FLEX COLUMN */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fcenter {
+    /* MAKES FLEX ELEMENTS CENTERED */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .attribution {
     font-size: 11px;
     text-align: center;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+    text-align: center;
   }
-}
-
-/* ELEMENT FORMATTING BELOW HERE*/
-
-html {
-  /* EFFECTS ALL ELEMENTS */
-}
-
-body {
-  /* EFFECTS BODY ELEMENTS */
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-
-.abs {
-  /* GIVES ELEMENTS ABSOLUTE POSITION */
-  position: absolute;
-}
-
-.rel {
-  /* GIVES ELEMENTS RELATIVE POSITION */
-  position: relative;
-}
-
-.flexr {
-  /* MAKES A FLEX ROW */
-  display: flex;
-  flex-direction: row;
-}
-
-.flexc {
-  /* MAKES A FLEX COLUMN */
-  display: flex;
-  flex-direction: column;
-}
-
-.fcenter {
-  /* MAKES FLEX ELEMENTS CENTERED */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
