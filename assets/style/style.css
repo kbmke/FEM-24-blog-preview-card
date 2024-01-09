@@ -199,6 +199,56 @@ h6 {
     height: 100vh;
   }
 
+  .card {
+    background-color: var(--cardBG);
+    width: 25rem;
+    height: 33rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 5rem auto;
+
+    .hero img {
+      width: 22rem;
+      margin: 1.3rem auto;
+      border-radius: 1rem;
+    }
+    .info {
+      margin: 0 1.5rem;
+
+      .learning {
+        background-color: var(--mainBG);
+        font-weight: 600;
+        width: 6rem;
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        text-align: center;
+      }
+      .pub {
+        margin: 1rem 0;
+      }
+      .sub {
+      font-weight: 800;
+    }
+
+    .para {
+      color: var(--para);
+      margin: 1rem 0;
+    }
+    .creator {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+
+      .avatar {
+        width: 2rem;
+      }
+      .name {
+        margin: 0.7rem;
+        font-weight: 800;
+      }
+    }
+  }
+
   .abs {
     /* GIVES ELEMENTS ABSOLUTE POSITION */
     position: absolute;
