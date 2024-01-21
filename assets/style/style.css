@@ -201,26 +201,27 @@ h6 {
 
   .card {
     background-color: var(--cardBG);
-    width: 25rem;
-    height: 33rem;
+    width: 22.8rem;
+    height: 31rem;
     border: 1px solid black;
-    border-radius: 1rem;
-    margin: 5rem auto;
+    border-radius: .7rem;
+    margin: 5.2rem auto;
 
     .hero img {
-      width: 22rem;
-      margin: 1.3rem auto;
-      border-radius: 1rem;
+      width: 21rem;
+      margin: .9rem auto;
+      border-radius: .7rem;
     }
     .info {
-      margin: 0 1.5rem;
+      margin: 0 1rem;
+      /* padding-bottom: 1.5rem; */
 
       .learning {
         background-color: var(--mainBG);
         font-weight: 600;
         width: 6rem;
         border-radius: 0.3rem;
-        padding: 0.5rem;
+        padding: 0.2rem;
         text-align: center;
       }
       .pub {
@@ -232,7 +233,7 @@ h6 {
 
     .para {
       color: var(--para);
-      margin: 1rem 0;
+      margin: .5rem 0;
     }
     .creator {
       display: flex;
@@ -240,7 +241,7 @@ h6 {
       margin: 1rem 0;
 
       .avatar {
-        width: 2rem;
+        width: 1.8rem;
       }
       .name {
         margin: 0.7rem;
