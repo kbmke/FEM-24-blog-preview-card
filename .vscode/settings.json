@@ -2,5 +2,7 @@
   "cSpell.words": ["Figtree"],
   "audioCues.chatResponsePending": "off",
   "audioCues.diffLineDeleted": "off",
-  "audioCues.lineHasBreakpoint": "off"
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
+  }
 }
