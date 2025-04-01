@@ -116,6 +116,11 @@ h6 {
       border-radius: 0.3rem;
       padding: 0.5rem;
       text-align: center;
+
+      h1 {
+        font-size: 1rem;
+        font-weight: bold;
+      }
     }
 
     .pub {
@@ -124,6 +129,7 @@ h6 {
 
     .sub {
       font-weight: 800;
+      font-size: 1.6rem;
     }
 
     .para {
@@ -184,7 +190,7 @@ h6 {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) {
   /* CHANGES SETTINGS AT 768px SCREEN SIZE TO 1440px SCREEN SIZE*/
 
   html {
@@ -204,13 +210,13 @@ h6 {
     width: 22.8rem;
     height: 31rem;
     border: 1px solid black;
-    border-radius: .7rem;
+    border-radius: 0.7rem;
     margin: 5.2rem auto;
 
     .hero img {
       width: 21rem;
-      margin: .9rem auto;
-      border-radius: .7rem;
+      margin: 0.9rem auto;
+      border-radius: 0.7rem;
     }
     .info {
       margin: 0 1rem;
@@ -228,28 +234,28 @@ h6 {
         margin: 1rem 0;
       }
       .sub {
-      font-weight: 800;
-    }
-
-    .para {
-      color: var(--para);
-      margin: .5rem 0;
-    }
-    .creator {
-      display: flex;
-      align-items: center;
-      margin: 1rem 0;
-
-      .avatar {
-        width: 1.8rem;
-      }
-      .name {
-        margin: 0.7rem;
         font-weight: 800;
+      }
+
+      .para {
+        color: var(--para);
+        margin: 0.5rem 0;
+      }
+      .creator {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+
+        .avatar {
+          width: 1.8rem;
+        }
+        .name {
+          margin: 0.7rem;
+          font-weight: 800;
+        }
       }
     }
   }
-
   .abs {
     /* GIVES ELEMENTS ABSOLUTE POSITION */
     position: absolute;
