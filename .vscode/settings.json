@@ -1,8 +1,14 @@
 {
-  "cSpell.words": ["Figtree"],
-  "audioCues.chatResponsePending": "off",
-  "audioCues.diffLineDeleted": "off",
+  "cSpell.words": [
+    "Figtree"
+  ],
   "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.progress": {
     "sound": "off"
   }
 }

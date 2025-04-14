@@ -94,8 +94,8 @@ h6 {
 
   .card {
     background-color: var(--cardBG);
-    width: 23rem;
-    height: 35rem;
+    width: 21rem;
+    /* height: 35rem; */
     border: 1px solid black;
     border-radius: 1rem;
     margin: 8rem auto;

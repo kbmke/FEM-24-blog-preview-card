@@ -1,0 +1,111 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* page reset */
+
+:root {
+  --mainBG: hsl(47, 88%, 63%);
+  --cardBG: hsl(0, 0%, 100%);
+  --main-txt-clr: hsl(0, 0%, 7%);
+  --about-txt-clr: hsl(0, 0%, 50%);
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--mainBG);
+  width: 100%;
+  height: 100vh;
+}
+.card {
+  width: 30%;
+  background-color: var(--cardBG);
+  margin: 5rem auto;
+  padding: 1.5rem;
+  border: 1px solid var(--main-txt-clr);
+  border-radius: 0.9rem;
+  box-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 1);
+}
+.hero {
+  margin: 0 auto;
+  display: flex;
+}
+.hero-image {
+  width: 100%;
+  display: flex;
+  border-radius: 0.5rem;
+}
+h1 {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: var(--mainBG);
+  width: 30%;
+}
+.publish-date {
+  font-size: 1rem;
+}
+.sub {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--main-txt-clr);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+a:hover {
+  color: var(--mainBG);
+  cursor: pointer;
+}
+.about {
+  font-size: 1rem;
+  margin: 0.5rem 0 1.5rem 0;
+  color: var(--about-txt-clr);
+  line-height: 1.5;
+}
+.creator-info {
+  display: inline-flex;
+  align-items: center;
+  /* to align the name to center on the y axis */
+}
+.creator-avatar {
+  width: 2.3rem;
+}
+.creator-name {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.attribution {
+  text-align: center;
+}
+@media only screen and (min-width: 375px) and (max-width: 540px) {
+  /*ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 540px SCREEN SIZE*/
+  body {
+    background-color: var(--mainBG);
+    width: 100%;
+    height: 100vh;
+  }
+  .card {
+    width: 50%;
+    background-color: var(--cardBG);
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid var(--main-txt-clr);
+    border-radius: 0.7rem;
+    box-shadow: 0.6rem 0.7rem 0 rgba(0, 0, 0, 1);
+  }
+  .hero {
+    margin: 0 auto;
+    display: flex;
+  }
+  .hero-image {
+    width: 100%;
+    display: flex;
+    border-radius: 0.5rem;
+  }
+}
