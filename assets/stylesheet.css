@@ -91,7 +91,7 @@ body {
   /* CHANGES SETTINGS AT 541px SCREEN SIZE TO 779px SCREEN SIZE*/
 
   .card {
-    width: 80%;
+    width: 60%;
     background-color: var(--cardBG);
     margin: 5rem auto;
     padding: 1.5rem;
@@ -155,7 +155,7 @@ body {
   /* CHANGES SETTINGS AT 780px SCREEN SIZE TO 1440px SCREEN SIZE*/
 
   .card {
-    width: 40%;
+    width: 30%;
     background-color: var(--cardBG);
     margin: 5rem auto;
     padding: 1.5rem;
